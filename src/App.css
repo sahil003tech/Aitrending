@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+    /* .App {
+        width: 100%;
+    } */
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(./Fonts/Gilroy-Bold.ttf);
+  }
+  @font-face {
+    font-family: Gilroy-L;
+    src: url(./Fonts/Gilroy-Light.otf);
+  }
+  @font-face {
+    font-family: Gilroy-SB;
+    src: url(./Fonts/Gilroy-SemiBold.ttf);
+  }
+
+h1{
+    font-family:Gilroy,sans-serif;
+}
+h2{
+    font-family:Gilroy,sans-serif;
+}
+h3{
+    font-family:Gilroy-SB,sans-serif;
+}
+h4{
+    font-family:Gilroy,sans-serif;
+}
+h5{
+    font-family:Gilroy,sans-serif;
+}
+
+p{
+    font-family: Gilroy-L,sans-serif ;
+}
+li{
+    font-family: Gilroy-L,sans-serif ;
+    font-size:medium;
+    margin-bottom: 0px;
+}
+
+#strath{
+    font-family:Gilroy-SB,sans-serif;
+}
+
+.icon {
+    font-size: 24px !important; /* Adjust the size as needed */
+}

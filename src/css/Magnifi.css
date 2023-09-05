@@ -1,0 +1,175 @@
+.image{
+    background: transparent;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 7.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-responsive{
+    width: 100%;
+    height: auto;
+}
+/* .text-box{
+    display: flex;
+    justify-content: center;
+}
+.text-animation {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Inter';
+    padding-top: 1em;
+    animation: typing 2s steps(12), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
+} */
+/* .animated-text {
+    height: 220px;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    fill: #5E17EB;
+    margin-left: 60px;
+}
+.svg-animation{
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+} */
+.top-animation{
+    animation: fadeInAnimation ease 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.css-typing{
+    padding-top: 7.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.css-typing h1 {
+    font-weight: 700;
+    font-size: 4.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    color: black;
+    font-family: 'Inter';
+    margin: 0;
+    /* width: 100%;
+    animation: type 2s; */
+
+}
+
+.css-typing h1:nth-child(1) {
+    width: 7.3em;
+    animation: type 2s;
+}
+
+.css-typing h1:nth-child(2) {
+    width: 10em;
+    opacity: 0;
+    animation: type2 1s steps(20, end);
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.css-typing h1:nth-child(3) {
+    width: 10em;
+    opacity: 0;
+    animation: type2 1s steps(20, end);
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.css-typing h1:nth-child(4) {
+    width: 10em;
+    opacity: 0;
+    animation: type2 1s steps(20, end);
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+
+    99.9% {}
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width:740px) {
+    .css-typing h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width:575px) {
+    .css-typing{
+        margin-top: 10px;
+    }
+    .css-typing h1 {
+        font-size: 2.2rem;
+    }
+
+}
+
+@media (max-width:380px) {
+    .css-typing{
+        margin-top: 10px;
+    }
+    .css-typing h1 {
+        font-size: 1.8rem;
+    }
+}
+/* @media (max-width:768px) {
+    .animated-text{
+        height: 200px;
+        margin-left: 30px;
+    }
+} */

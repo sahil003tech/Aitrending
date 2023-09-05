@@ -1,0 +1,71 @@
+
+  .gradient-box {
+    width: 110vw;
+    min-width: 110vw;
+    height: 100px;
+    position: relative;
+    left:-5%;
+    overflow:hidden !important;
+    background: linear-gradient(-10deg, #00f, #0af, #00f);
+    transform: rotate(-3deg);
+    /* animation: gradientAnimation 5s  ease-in-out infinite;
+    animation-timing-function: ease-in-out; */
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* @keyframes gradientAnimation {
+    0%, 100% {
+        background: linear-gradient(-10deg, #00f, #0af, #00f);
+      }
+      20%,80% {
+        background: linear-gradient(-7deg, #00f, #0af, #00f);
+      }
+      33%,66% {
+        background: linear-gradient(-3deg, #00f, #0af, #00f);
+      }
+      50% {
+        background: linear-gradient(-1deg,  #00f, #0af, #00f);
+      }
+  }  */
+
+
+  .gradient-box-2 {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0%;
+    background: #E3E2F8;
+    transform: rotate(-3deg);
+  }
+  
+  .gradient-box-2::before,
+  .gradient-box-2::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    background-color: #88D2F6;
+  }
+  
+  .gradient-box-2::before {
+    top: 100%;
+    left: 0;
+  }
+  
+  .gradient-box-2::after {
+    bottom: 100%;
+    right: 0;
+  }
+
+  .gradient-box-2 h3 {
+    transform: rotate(3deg); 
+  }
+  .gradient-box-2 button {
+    transform: rotate(3deg); 
+  }

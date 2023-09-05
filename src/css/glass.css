@@ -1,0 +1,11 @@
+.glass{
+    backdrop-filter: blur(5px)  ;
+    mix-blend-mode:'color-burn'; 
+}
+
+.bt{
+    text-shadow: 1px 1px #000000;
+}
+.btw{
+    text-shadow: 1px 1px #ffffff;
+}

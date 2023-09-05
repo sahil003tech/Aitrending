@@ -1,0 +1,35 @@
+.team-container{
+    padding: 0 1rem;
+}
+.team-inner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.team-photo{
+    max-width: 100%;
+    height: auto;
+}
+.team-member{
+    width: 30%;
+}
+@media (max-width:1298px) {
+    .team-member{
+        width: 29%;
+    }
+}
+@media  (max-width:1200px) {
+    .team-member{
+        width: 45%;
+    }
+}
+@media (max-width:700px) {
+    .team-member{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .team-member{
+        width: 100%;
+    }
+}

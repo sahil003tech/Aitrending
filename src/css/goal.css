@@ -1,0 +1,12 @@
+.activity {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+button {
+    padding: 10px 40px;
+    border-radius: 5em;
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,63 @@
+.top-container{
+    padding: 80px 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.text-container{
+    display: flex;
+    flex-direction: row;
+}
+.right-container{
+    width: 40%;
+    padding: 0 1rem;
+}
+.left-container{
+    padding: 0 1rem;
+    width: 60%;
+}
+.span-text{
+    font-size: 2vw;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.h2-text{
+    font-size: 2vw;
+    font-family: 'Inter';
+    font-weight: 300;
+}
+.border-bottom{
+    border-top: 1px solid black;
+}
+a.arrow{
+    background-image: url('https: //8718883.fs1.hubspotusercontent-na1.net/hubfs/8718883/aisot-theme-2023/icons/black-arrow-right.svg');
+    background-size: 32px;
+    background-position-x: 0px;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    border: none;
+    color: #444;
+    padding-left: 40px;
+    text-align: left;
+}
+
+@media (max-width:600px) {
+    .text-container{
+        flex-direction: column;
+    }
+    .right-container{
+        width: 100%;
+    }
+    .left-container{
+        width: 100%;
+    }
+    .span-text{
+        font-size: 3vw;
+    }
+    .h2-text{
+        font-size: 3vw;
+    }
+    .right-container .right-h1{
+        font-size: 30px;
+    }
+    
+}

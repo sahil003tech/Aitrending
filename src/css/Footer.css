@@ -1,0 +1,17 @@
+.footer{
+    background-color: #333333;
+    height: max-content;
+    width: 100%;
+    /* padding: 36px 100px; */
+    color: white;
+}
+.inside-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 50px;
+}
+@media (max-width:1000px) {
+    .inside-footer{
+        flex-direction: column;
+    }
+}

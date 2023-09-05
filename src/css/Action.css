@@ -1,0 +1,30 @@
+.main{
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 100px;
+}
+
+button {
+    padding: 10px 40px;
+    border-radius: 5em;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    color: red;
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    color: red;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+     font-weight: 400;
+}

@@ -1,0 +1,24 @@
+.four-left{
+    padding: 0 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four-right{
+    padding: 0 1rem;
+    width: 50%;
+}
+@media (max-width:600px) {
+    .four-left{
+        width: 100%;
+        justify-content:space-between;
+    }
+    .four-right{
+        width: 100%;
+    }
+    .four-image-left{
+        width: 400px;
+        overflow: hidden;
+    }
+}
